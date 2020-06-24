@@ -1,5 +1,5 @@
 # College-App
-An App that helps college student to get its **Attendance**, **Timetable**, **Events**, **College Notifications** etc. into one place. 
+An App that helps college student to get there **Attendance**, **Timetable**, **Events**, **College Notifications** etc. into one place. 
 ## 1. Attendance
 ![Attendance!](/displayImage/first.png "Philadelphia's Magic Gardens")
 ## 2. Timetable
