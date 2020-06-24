@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "380464233758",
+    "firebase_url": "https://collegeapp-fd1c0.firebaseio.com",
+    "project_id": "collegeapp-fd1c0",
+    "storage_bucket": "collegeapp-fd1c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380464233758:android:bdea758b3b5bb41ecc1d0f",
+        "android_client_info": {
+          "package_name": "com.example.college_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380464233758-f7052mnirtaaiftptj60ksja6j61opt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.college_app",
+            "certificate_hash": "67e6f55fc15af54bd86bf526be5a423122489dc0"
+          }
+        },
+        {
+          "client_id": "380464233758-s6h03n4gng792br9ff1stna5td1lonft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcvWSDylmvg6QVTFO6uMx3kVBbV0dNhzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380464233758-s6h03n4gng792br9ff1stna5td1lonft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="270dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/popular_event_images"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/background_event"
+                        android:scaleType="centerCrop"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:background="@color/White"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/event_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Event Name"
+                            android:textColor="@color/Black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/club_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Club Name"
+                            android:textColor="#757575"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/event_starting"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:00 PM"
+                                android:textColor="#757575"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" - "
+                                android:textColor="#757575"/>
+
+                            <TextView
+                                android:id="@+id/event_location"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LHC 202"
+                                android:textColor="#757575"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="4"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/event_like" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/White"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/event_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="19"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/event_month"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="top|center_horizontal"
+                            android:text="Jun"
+                            android:textColor="@color/Black"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </RelativeLayout>
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:orientation="vertical">-->
+
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_weight="1">-->
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/event_background"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_alignParentLeft="true"-->
+        <!--                android:layout_alignParentTop="true"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_alignParentBottom="true"-->
+        <!--                android:layout_marginBottom="0dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:background="@drawable/background_event"-->
+        <!--                android:gravity="right" />-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="55dp"-->
+        <!--                android:layout_alignParentEnd="true"-->
+        <!--                android:layout_alignParentRight="true"-->
+        <!--                android:layout_alignParentTop="true"-->
+        <!--                android:background="@drawable/border_event_card"-->
+        <!--                android:gravity="center_horizontal"-->
+        <!--                android:orientation="vertical">-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/event_date"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="15"-->
+        <!--                    android:textColor="@color/Black"-->
+        <!--                    android:textSize="20sp"-->
+        <!--                    android:textStyle="bold"-->
+        <!--                    tools:ignore="HardcodedText" />-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/event_month"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="July"-->
+        <!--                    android:textColor="@color/Black"-->
+        <!--                    android:textSize="15sp"-->
+        <!--                    tools:ignore="HardcodedText" />-->
+
+        <!--            </LinearLayout>-->
+        <!--        </RelativeLayout>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_marginStart="10sp"-->
+        <!--            android:layout_marginLeft="10sp"-->
+        <!--            android:layout_marginEnd="10sp"-->
+        <!--            android:layout_weight="2"-->
+        <!--            android:background="@color/White"-->
+        <!--            android:orientation="horizontal">-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center_vertical">-->
+        <!--                <TextView-->
+        <!--                    android:id="@+id/event_title"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="Art Exhibition"-->
+        <!--                    android:textColor="@color/Black"-->
+        <!--                    android:textSize="25sp"-->
+        <!--                    android:textStyle="bold" />-->
+        <!--                <TextView-->
+        <!--                    android:id="@+id/club_name"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="Art Club"-->
+        <!--                    android:textColor="@color/Black"-->
+        <!--                    android:textSize="15sp" />-->
+        <!--            </LinearLayout>-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_weight="3"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center_vertical|right">-->
+        <!--                <TextView-->
+        <!--                    android:id="@+id/event_starting"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="10:00 AM"-->
+        <!--                    android:textSize="15sp"-->
+        <!--                    android:textColor="#757575"-->
+        <!--                    tools:ignore="HardcodedText" />-->
+        <!--                <TextView-->
+        <!--                    android:id="@+id/event_location"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:textColor="#757575"-->
+        <!--                    android:text="LHC 202"/>-->
+        <!--            </LinearLayout>-->
+        <!--        </LinearLayout>-->
+
+        <!--    </LinearLayout>-->
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
